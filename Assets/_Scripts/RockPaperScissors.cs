@@ -29,7 +29,7 @@ public class RockPaperScissors : MonoBehaviour
     {
         if(isGameStarted)
         {
-            AIChoice = Random.Range(1, 3);
+            AIChoice = Random.Range(1, 4);
             switch(AIChoice)
             {
                 case 1:
